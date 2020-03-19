@@ -5,25 +5,28 @@
 [![License](https://img.shields.io/cocoapods/l/XBAlertViewController.svg?style=flat)](https://cocoapods.org/pods/XBAlertViewController)
 [![Platform](https://img.shields.io/cocoapods/p/XBAlertViewController.svg?style=flat)](https://cocoapods.org/pods/XBAlertViewController)
 
-## Example
+## Requirements:
+- **iOS** 9.0+
+- Xcode 10.0+
+- Swift 5.0+
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Installation Cocoapods
+<pre><code class="ruby language-ruby">pod 'XBAlertViewController', '~> 1.0.0'</code></pre>
 
-## Installation
+## Usage
 
-XBAlertViewController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'XBAlertViewController'
+```swift
+         let autolatoutView = XBAutolatoutView()
+        XBShowAlertView.showAlertView(alertStyle: type,
+                                      showInView: self.view,
+                                      contentView: autolatoutView,
+                                      backgoundTapDismissEnable: true,
+                                      isShowMask: true,
+                                      alertViewEdging: 20,
+                                      alertViewOriginY: 0, delegate: self)
 ```
 
-## Author
-
-LiuSky, 327847390@qq.com
-
 ## License
+XBAlertViewController is released under an MIT license. See [LICENSE](LICENSE) for more information.
 
-XBAlertViewController is available under the MIT license. See the LICENSE file for more info.
