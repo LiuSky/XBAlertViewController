@@ -1,0 +1,6 @@
+framework module Pods_XBAlertViewController_Example {
+  umbrella header "Pods-XBAlertViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

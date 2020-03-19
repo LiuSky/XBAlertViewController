@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XBAlertViewController_Example' do
+  pod 'XBAlertViewController', :path => '../'
+
+  target 'XBAlertViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - XBAlertViewController (0.1.0)
+
+DEPENDENCIES:
+  - XBAlertViewController (from `../`)
+
+EXTERNAL SOURCES:
+  XBAlertViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBAlertViewController: 17b758c5f637eaf8bade608344ec7c59744a0c03
+
+PODFILE CHECKSUM: baf3e5d1571fc9aa1588ec8e21e7c4bd0d268271
+
+COCOAPODS: 1.9.1
