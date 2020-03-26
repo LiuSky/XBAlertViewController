@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XBAlertViewController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '方便快捷的弹出框.'
 
   s.description      = <<-DESC

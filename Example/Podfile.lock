@@ -1,5 +1,5 @@
 PODS:
-  - XBAlertViewController (1.0.0)
+  - XBAlertViewController (1.0.1)
 
 DEPENDENCIES:
   - XBAlertViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XBAlertViewController: 369a420ecc62df1b582b834e79dcfb45465ff0d0
+  XBAlertViewController: 9a95a06eaa5c05cf6b4bded26342b1537c8ed978
 
 PODFILE CHECKSUM: baf3e5d1571fc9aa1588ec8e21e7c4bd0d268271
 

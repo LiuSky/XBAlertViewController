@@ -110,8 +110,4 @@ public final class XBShowAlertView: UIView {
     private func singleTap(sender: UITapGestureRecognizer) {
         dismiss()
     }
-
-    deinit {
-        debugPrint("释放WZShowActionSheetView")
-    }
 }

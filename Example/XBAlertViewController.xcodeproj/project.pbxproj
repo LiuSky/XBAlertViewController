@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CBC546C304350ABE9B1D7D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8020405824231D7500D830C3 /* XBAutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBAutoLayoutView.swift; sourceTree = "<group>"; };
-		99BACBDD8A69AAB21FE4D80A /* XBAlertViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XBAlertViewController.podspec; path = ../XBAlertViewController.podspec; sourceTree = "<group>"; };
+		99BACBDD8A69AAB21FE4D80A /* XBAlertViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XBAlertViewController.podspec; path = ../XBAlertViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF6A15C5EBBDB49057762906 /* Pods_XBAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B269EE712C761B3D354F96AA /* Pods-XBAlertViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBAlertViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-XBAlertViewController_Example/Pods-XBAlertViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C74F916659979AADFBB7A5BC /* Pods-XBAlertViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBAlertViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-XBAlertViewController_Tests/Pods-XBAlertViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -489,10 +489,12 @@
 			baseConfigurationReference = 01819585EB83EBBC8CDFCC7B /* Pods-XBAlertViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TA399PG2C9;
 				INFOPLIST_FILE = XBAlertViewController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,10 +508,12 @@
 			baseConfigurationReference = B269EE712C761B3D354F96AA /* Pods-XBAlertViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TA399PG2C9;
 				INFOPLIST_FILE = XBAlertViewController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
