@@ -3,10 +3,6 @@ Pod::Spec.new do |s|
   s.version          = '1.0.1'
   s.summary          = '方便快捷的弹出框.'
 
-  s.description      = <<-DESC
-方便快捷的弹出框.
-                       DESC
-
   s.homepage         = 'https://github.com/LiuSky/XBAlertViewController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuxiaobin' => '327847390@qq.com' }
