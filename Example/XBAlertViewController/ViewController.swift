@@ -12,7 +12,7 @@ import XBAlertViewController
 
 /// MARK - ViewController
 final class ViewController: UIViewController {
-
+    
     /// 演示列表
     private lazy var tableView: UITableView = {
         let temTableView = UITableView()
@@ -26,6 +26,10 @@ final class ViewController: UIViewController {
     }()
     
     private var alertView: XBShowAlertView?
+    private lazy var textView: CustomInputTextView = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        return $0
+    }(CustomInputTextView())
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +43,7 @@ final class ViewController: UIViewController {
     /// 配置视图
     private func configView() {
         view.addSubview(tableView)
+        
     }
     
     /// 配置位置
@@ -54,7 +59,7 @@ final class ViewController: UIViewController {
     @objc private func eventForDis() {
         self.alertView?.dismiss()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -82,16 +87,26 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let type = XBAlertStyle.allCases[indexPath.row]
+                let type = XBAlertStyle.allCases[indexPath.row]
         
-        let autolatoutView = XBAutoLayoutView()
-        alertView = XBShowAlertView.showAlertView(alertStyle: type,
-                                      showInView: self.view,
-                                      contentView: autolatoutView,
-                                      backgoundTapDismissEnable: false,
-                                      isShowMask: true,
-                                      alertViewEdging: 20,
-                                      alertViewOriginY: 10, delegate: self)
+                let autolatoutView = XBAutoLayoutView()
+                alertView = XBShowAlertView.showAlertView(alertStyle: type,
+                                              showInView: self.view,
+                                              contentView: autolatoutView,
+                                              backgoundTapDismissEnable: false,
+                                              isShowMask: true,
+                                              alertViewEdging: 20,
+                                              alertViewOriginY: 10, delegate: self)
+        
+        
+//        view.addSubview(textView)
+//        NSLayoutConstraint.activate([
+//            textView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+//            textView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+//            textView.topAnchor.constraint(equalTo: view.topAnchor),
+//            textView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+//        ])
+//        textView.show()
     }
 }
 

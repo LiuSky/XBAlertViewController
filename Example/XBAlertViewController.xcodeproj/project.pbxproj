@@ -16,6 +16,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8020405924231D7500D830C3 /* XBAutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020405824231D7500D830C3 /* XBAutoLayoutView.swift */; };
+		80B53DA824920CC800286F0F /* CustomInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B53DA724920CC800286F0F /* CustomInputTextView.swift */; };
+		80B53DAB2492116000286F0F /* KeyboardEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B53DAA2492116000286F0F /* KeyboardEvent.swift */; };
+		80B53DAD2492118500286F0F /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B53DAC2492118500286F0F /* KeyboardNotification.swift */; };
+		80B53DAF2492119700286F0F /* NSNotification+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B53DAE2492119700286F0F /* NSNotification+Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CBC546C304350ABE9B1D7D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8020405824231D7500D830C3 /* XBAutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBAutoLayoutView.swift; sourceTree = "<group>"; };
+		80B53DA724920CC800286F0F /* CustomInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputTextView.swift; sourceTree = "<group>"; };
+		80B53DAA2492116000286F0F /* KeyboardEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEvent.swift; sourceTree = "<group>"; };
+		80B53DAC2492118500286F0F /* KeyboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
+		80B53DAE2492119700286F0F /* NSNotification+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+Keyboard.swift"; sourceTree = "<group>"; };
 		99BACBDD8A69AAB21FE4D80A /* XBAlertViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XBAlertViewController.podspec; path = ../XBAlertViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF6A15C5EBBDB49057762906 /* Pods_XBAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B269EE712C761B3D354F96AA /* Pods-XBAlertViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBAlertViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-XBAlertViewController_Example/Pods-XBAlertViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,9 +103,11 @@
 		607FACD21AFB9204008FA782 /* Example for XBAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
+				80B53DA92492115300286F0F /* KeyboardManager */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				8020405824231D7500D830C3 /* XBAutoLayoutView.swift */,
+				80B53DA724920CC800286F0F /* CustomInputTextView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -160,6 +170,16 @@
 				C74F916659979AADFBB7A5BC /* Pods-XBAlertViewController_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		80B53DA92492115300286F0F /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				80B53DAA2492116000286F0F /* KeyboardEvent.swift */,
+				80B53DAC2492118500286F0F /* KeyboardNotification.swift */,
+				80B53DAE2492119700286F0F /* NSNotification+Keyboard.swift */,
+			);
+			name = KeyboardManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +358,10 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				8020405924231D7500D830C3 /* XBAutoLayoutView.swift in Sources */,
+				80B53DAD2492118500286F0F /* KeyboardNotification.swift in Sources */,
+				80B53DA824920CC800286F0F /* CustomInputTextView.swift in Sources */,
+				80B53DAB2492116000286F0F /* KeyboardEvent.swift in Sources */,
+				80B53DAF2492119700286F0F /* NSNotification+Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
