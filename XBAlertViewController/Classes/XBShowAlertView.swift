@@ -58,11 +58,18 @@ public final class XBShowAlertView: UIView {
         }
     }
     
+    /// 背景颜色
+    public var backgroundViewColor: UIColor = UIColor.black.withAlphaComponent(0.25) {
+        didSet {
+            self.backgroundView.backgroundColor = backgroundViewColor
+        }
+    }
+    
     /// 是否遮照
     public var isShowMask: Bool = true {
         didSet {
             if self.isShowMask {
-                self.backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0.25)
+                self.backgroundView.backgroundColor = backgroundViewColor
             } else {
                 self.backgroundView.backgroundColor = UIColor.clear
             }
