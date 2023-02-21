@@ -31,6 +31,9 @@ final class ViewController: UIViewController {
         return $0
     }(CustomInputTextView())
     
+    /// 保留上一次的布局大小
+    private var layoutSize: CGSize = CGSize.zero
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -58,6 +61,17 @@ final class ViewController: UIViewController {
     
     @objc private func eventForDis() {
         self.alertView?.dismiss()
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        //当布局发生变化的时候才改变
+        if let temAlertView = alertView,
+           !layoutSize.equalTo(view.bounds.size) {
+            layoutSize = view.bounds.size
+            temAlertView.updateLayout()
+        }
     }
     
     override func didReceiveMemoryWarning() {

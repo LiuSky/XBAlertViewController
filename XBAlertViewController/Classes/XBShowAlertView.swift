@@ -85,6 +85,11 @@ public final class XBShowAlertView: UIView {
     /// 内容视图宽度
     internal var contentViewWidth: CGFloat = 0
     
+    /// 内容宽度Anchor
+    internal var contentViewWidthAnchor: NSLayoutConstraint?
+    internal var contentViewHeightAnchor: NSLayoutConstraint?
+    
+    
     /// 初始化弹出视图
     ///
     /// - Parameter contentView: 内容视图
@@ -109,5 +114,22 @@ public final class XBShowAlertView: UIView {
     @objc
     private func singleTap(sender: UITapGestureRecognizer) {
         dismiss()
+    }
+    
+    /// 更新布局
+    public func updateLayout(height: CGFloat = 0, width: CGFloat = 0) {
+        
+        /// 自动计算布局
+        if height == 0 || width == 0 {
+            
+            contentViewWidth = (self.superview?.frame.width ?? 0) - alertViewEdging * 2
+            let contentViewSize = contentView.systemLayoutSizeFitting(CGSize(width: contentViewWidth, height: 0.0), withHorizontalFittingPriority: UILayoutPriority.required, verticalFittingPriority: UILayoutPriority.fittingSizeLevel)
+            contentViewHeight = contentViewSize.height
+            
+        } else {
+            contentViewWidth = width
+            contentViewHeight = height
+        }
+        layoutAlertView()
     }
 }

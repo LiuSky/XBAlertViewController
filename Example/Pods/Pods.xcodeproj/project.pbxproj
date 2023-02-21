@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048487C39E8C1D0ADD420A107B3403A0 /* Pods-XBAlertViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCF62B4A78BB62EFF032230523D2F8B /* Pods-XBAlertViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09C1D88E8A271C479BD2A2220F413D5D /* Pods-XBAlertViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E7D30C41882F619ADF25E3F7FA0F4D /* Pods-XBAlertViewController_Tests-dummy.m */; };
-		0FE4B62DDCD94A0EDC68228F8DBA556F /* Pods-XBAlertViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24144AA1E2E47E5EA053103DCEFBAC2 /* Pods-XBAlertViewController_Example-dummy.m */; };
-		1BE1C09EEDB2E8A171CE777146589FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1C65D2D06A318102CC9EA3B086178439 /* XBAlertAnimateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B2C8A4A8B8C21B6B76409247F0F19 /* XBAlertAnimateType.swift */; };
-		34F10C022F7C32B8404BF22A2220731D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		378A41AF3E8A03BF09B41C9D02AE35F8 /* XBAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADA5EDD6BD1135C11659F1014B62B0D /* XBAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C8018BB04AA38F6237E74920DC9A8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4F84D6F6CA2DD0A0166AEC240309AABF /* XBAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C5ECDF41C06F34AC9D4A50A879DE4 /* XBAlertViewController-dummy.m */; };
-		6CCF52D17348C44D08FB48C1AC83B6E8 /* Pods-XBAlertViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B82661641C73AE4F2256C41AF81CF30 /* Pods-XBAlertViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789C04D527756D7F91FAE5B1E8BBABA1 /* XBShowAlertView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400FFA132C68274081B11D5FEF2BF8B /* XBShowAlertView+Layout.swift */; };
-		A2711D3740048E7FCDDCE994C3C0B307 /* XBShowAlertView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AC8BCCBA3F8F157AD1AE432752C97 /* XBShowAlertView+Animation.swift */; };
-		E5017BED7A3FD4C93577B9DF0BADE256 /* XBShowAlertView+Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53AB1CF8407E3B478B51D69B30900E /* XBShowAlertView+Public.swift */; };
-		EF37C8F91D8A707F59ED055E78201EDF /* XBShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702FB3EAEDBA02AAFD1B3428CC1F98E /* XBShowAlertView.swift */; };
+		3954CA3DFCA70D8D43EC37C71656D44E /* XBAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C5ECDF41C06F34AC9D4A50A879DE4 /* XBAlertViewController-dummy.m */; };
+		3B0248250D72C1DF6E69B6F15D30E497 /* XBAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADA5EDD6BD1135C11659F1014B62B0D /* XBAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F606F3DC1755C0A784F468BAE3C22CB /* XBAlertAnimateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B2C8A4A8B8C21B6B76409247F0F19 /* XBAlertAnimateType.swift */; };
+		4CBDA1FE908DEB71611D60C5C2F95199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4FECB1E40A0B13F83A3179F0019CF27F /* XBShowAlertView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400FFA132C68274081B11D5FEF2BF8B /* XBShowAlertView+Layout.swift */; };
+		582DC5584A4BEDF5ABED6815DF9953EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		59C3F868220AD11E920A6EA977DF1514 /* Pods-XBAlertViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCF62B4A78BB62EFF032230523D2F8B /* Pods-XBAlertViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652659CAC85252EB8C6F44D6CF7E66EB /* Pods-XBAlertViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E7D30C41882F619ADF25E3F7FA0F4D /* Pods-XBAlertViewController_Tests-dummy.m */; };
+		725BAF41B57770196C5C01203EB25906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77E94C4FE18C9AFDA91CEEE8EF113C1C /* XBShowAlertView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AC8BCCBA3F8F157AD1AE432752C97 /* XBShowAlertView+Animation.swift */; };
+		833D9143F065A0A9540B8722E55EB0A5 /* Pods-XBAlertViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24144AA1E2E47E5EA053103DCEFBAC2 /* Pods-XBAlertViewController_Example-dummy.m */; };
+		C95E78CA2E3FE67BE84A070AFDB0B671 /* Pods-XBAlertViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B82661641C73AE4F2256C41AF81CF30 /* Pods-XBAlertViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D882C977AE810B5096AE3AC32FD00926 /* XBShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702FB3EAEDBA02AAFD1B3428CC1F98E /* XBShowAlertView.swift */; };
+		DE3C565959E01CA5013565AED96822F2 /* XBShowAlertView+Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53AB1CF8407E3B478B51D69B30900E /* XBShowAlertView+Public.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40C6CF0A3B4FDF5312D46046F18CB438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA25DDE41766A959DC2A863C7821F3D9;
-			remoteInfo = XBAlertViewController;
-		};
-		780A9485E2B67F9675BC8204D730ECBE /* PBXContainerItemProxy */ = {
+		8A82D809BF2D798508D6D3E28A6E74F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 708D7799A488F067820BFBE8DEB2DB91;
 			remoteInfo = "Pods-XBAlertViewController_Example";
 		};
+		D1EB6C0244FB9F8398D7EF1A60104D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA25DDE41766A959DC2A863C7821F3D9;
+			remoteInfo = XBAlertViewController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0702FB3EAEDBA02AAFD1B3428CC1F98E /* XBShowAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XBShowAlertView.swift; path = XBAlertViewController/Classes/XBShowAlertView.swift; sourceTree = "<group>"; };
-		07D66F340AB68718B09B890D5C3BD1F1 /* Pods_XBAlertViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBAlertViewController_Example.framework; path = "Pods-XBAlertViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D66F340AB68718B09B890D5C3BD1F1 /* Pods-XBAlertViewController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XBAlertViewController_Example"; path = Pods_XBAlertViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		098748B5A609B334477791C1FED9DAF1 /* Pods-XBAlertViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBAlertViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0B82661641C73AE4F2256C41AF81CF30 /* Pods-XBAlertViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBAlertViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		1D2C5ECDF41C06F34AC9D4A50A879DE4 /* XBAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBAlertViewController-dummy.m"; sourceTree = "<group>"; };
@@ -52,20 +52,20 @@
 		2CC194ECC22C84950089263875D8205C /* XBAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBAlertViewController.debug.xcconfig; sourceTree = "<group>"; };
 		2EFE5BB1A930F235432C066634377D9D /* Pods-XBAlertViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBAlertViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FD9E4E9A858296B9862B46CD6DD8640 /* XBAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBAlertViewController.release.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		560B6621FD43E406708D7FC565750A06 /* Pods-XBAlertViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBAlertViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5693B1507BF6CF2554B39D97B8EFFC97 /* Pods-XBAlertViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBAlertViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		63E6DED6D153E591A1CD4E4258D99923 /* Pods-XBAlertViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBAlertViewController_Tests-Info.plist"; sourceTree = "<group>"; };
 		6CF16530860D37277EB5540BC205EF5D /* Pods-XBAlertViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBAlertViewController_Example-Info.plist"; sourceTree = "<group>"; };
 		6DA580B8488C0AF7A9FFA17D3F943DBD /* Pods-XBAlertViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBAlertViewController_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76B5CD8424C3304243A7291077F1DE06 /* XBAlertViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XBAlertViewController-Info.plist"; sourceTree = "<group>"; };
 		8B1DBBFBA1486ACA12C0376A30EA6AD5 /* XBAlertViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBAlertViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AACBED0D67E5F0EB3DB1F21EC79BD90F /* Pods-XBAlertViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBAlertViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB097847756C6EFC379817B02F7C348C /* XBAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XBAlertViewController.framework; path = XBAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB097847756C6EFC379817B02F7C348C /* XBAlertViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XBAlertViewController; path = XBAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6AC8BCCBA3F8F157AD1AE432752C97 /* XBShowAlertView+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XBShowAlertView+Animation.swift"; path = "XBAlertViewController/Classes/XBShowAlertView+Animation.swift"; sourceTree = "<group>"; };
 		B15B2C8A4A8B8C21B6B76409247F0F19 /* XBAlertAnimateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XBAlertAnimateType.swift; path = XBAlertViewController/Classes/XBAlertAnimateType.swift; sourceTree = "<group>"; };
-		B96214761F87FC676663D80A7173D4DF /* Pods_XBAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XBAlertViewController_Tests.framework; path = "Pods-XBAlertViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96214761F87FC676663D80A7173D4DF /* Pods-XBAlertViewController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XBAlertViewController_Tests"; path = Pods_XBAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5062388D8202AB020C2BBCEDB4675 /* Pods-XBAlertViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBAlertViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB8F26C602582E8D46492C374DB723A /* Pods-XBAlertViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XBAlertViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D4E7D30C41882F619ADF25E3F7FA0F4D /* Pods-XBAlertViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBAlertViewController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -81,27 +81,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53C13EB9F95AB8FC3A7A4AF1BE4656C3 /* Frameworks */ = {
+		25C97CB2676DBC44F01FBB2D73F26303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C8018BB04AA38F6237E74920DC9A8A /* Foundation.framework in Frameworks */,
+				725BAF41B57770196C5C01203EB25906 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BA467B3120F4F51D3FADC70EC050B15 /* Frameworks */ = {
+		42CE6E1D27589B9BCD25B4EB0B68429A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F10C022F7C32B8404BF22A2220731D /* Foundation.framework in Frameworks */,
+				4CBDA1FE908DEB71611D60C5C2F95199 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83BDE8A15F29FC86149054B94D217EEA /* Frameworks */ = {
+		DE6898397CCA11D43B37D91349E242C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE1C09EEDB2E8A171CE777146589FA8 /* Foundation.framework in Frameworks */,
+				582DC5584A4BEDF5ABED6815DF9953EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +139,14 @@
 			path = "Example/Pods/Target Support Files/XBAlertViewController";
 			sourceTree = "<group>";
 		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		5CBE6CB019EF35F344734FE5099C1262 /* XBAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,16 +162,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		60BE8FFB51F25B5B8B30F29FFF0E29D8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				07D66F340AB68718B09B890D5C3BD1F1 /* Pods_XBAlertViewController_Example.framework */,
-				B96214761F87FC676663D80A7173D4DF /* Pods_XBAlertViewController_Tests.framework */,
-				AB097847756C6EFC379817B02F7C348C /* XBAlertViewController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7F136F57C9B95AA83DB5C9919E9C7E1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +170,16 @@
 				8B1DBBFBA1486ACA12C0376A30EA6AD5 /* XBAlertViewController.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		822B9DB1C6ACE2CF55891246CD7FDBBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D66F340AB68718B09B890D5C3BD1F1 /* Pods-XBAlertViewController_Example */,
+				B96214761F87FC676663D80A7173D4DF /* Pods-XBAlertViewController_Tests */,
+				AB097847756C6EFC379817B02F7C348C /* XBAlertViewController */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		90A8606863DE6113CDB889CCE3864193 /* Pods-XBAlertViewController_Example */ = {
@@ -200,14 +208,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C382A183356506090438B1BE2960A25B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,7 +222,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C382A183356506090438B1BE2960A25B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				60BE8FFB51F25B5B8B30F29FFF0E29D8 /* Products */,
+				822B9DB1C6ACE2CF55891246CD7FDBBF /* Products */,
 				BF159DFC7D3C0F3572B779CBBA8A3464 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,27 +238,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7AEFC74CB61DF79D31FB0BE75BBE8131 /* Headers */ = {
+		4942F4A44CCCDB0AB3D5CB500E47397C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCF52D17348C44D08FB48C1AC83B6E8 /* Pods-XBAlertViewController_Example-umbrella.h in Headers */,
+				3B0248250D72C1DF6E69B6F15D30E497 /* XBAlertViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF39F6EBA054404F80A4A5F9038238B1 /* Headers */ = {
+		4F023574C5C2FE7C7F7E63DC5B120B51 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048487C39E8C1D0ADD420A107B3403A0 /* Pods-XBAlertViewController_Tests-umbrella.h in Headers */,
+				59C3F868220AD11E920A6EA977DF1514 /* Pods-XBAlertViewController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFCC36F5D587C13856DDC11F03D0B110 /* Headers */ = {
+		BEBA6153C27D9EDC6495CDD64B1EA202 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378A41AF3E8A03BF09B41C9D02AE35F8 /* XBAlertViewController-umbrella.h in Headers */,
+				C95E78CA2E3FE67BE84A070AFDB0B671 /* Pods-XBAlertViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,31 +267,31 @@
 /* Begin PBXNativeTarget section */
 		708D7799A488F067820BFBE8DEB2DB91 /* Pods-XBAlertViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4AD2B87252345EB1A3DB6530BC9FF0 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Example" */;
+			buildConfigurationList = FCA943F39BD26D7409DFB951FBCCEE22 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Example" */;
 			buildPhases = (
-				7AEFC74CB61DF79D31FB0BE75BBE8131 /* Headers */,
-				446C4FA8631B5DA50B1D328386872A74 /* Sources */,
-				6BA467B3120F4F51D3FADC70EC050B15 /* Frameworks */,
-				7113801540AD7D0AE2F5384585912C95 /* Resources */,
+				BEBA6153C27D9EDC6495CDD64B1EA202 /* Headers */,
+				79226C38E2511272AC2C0BB5F4BE3EAF /* Sources */,
+				DE6898397CCA11D43B37D91349E242C5 /* Frameworks */,
+				EC4321254633D9C6DE20CF9B0E46E952 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F4CE0399E35DE40347D6310A32DA15F /* PBXTargetDependency */,
+				1666148CA86D5A02B6FDA13D9C86BE7A /* PBXTargetDependency */,
 			);
 			name = "Pods-XBAlertViewController_Example";
-			productName = "Pods-XBAlertViewController_Example";
-			productReference = 07D66F340AB68718B09B890D5C3BD1F1 /* Pods_XBAlertViewController_Example.framework */;
+			productName = Pods_XBAlertViewController_Example;
+			productReference = 07D66F340AB68718B09B890D5C3BD1F1 /* Pods-XBAlertViewController_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		DA25DDE41766A959DC2A863C7821F3D9 /* XBAlertViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF5330DD0E657BC7B7B0D7DEB7A711E7 /* Build configuration list for PBXNativeTarget "XBAlertViewController" */;
+			buildConfigurationList = 92AB6EA45BC3C315C448BCC8DC0EED54 /* Build configuration list for PBXNativeTarget "XBAlertViewController" */;
 			buildPhases = (
-				FFCC36F5D587C13856DDC11F03D0B110 /* Headers */,
-				7829D741F63CFB93EF4FBE35513B13E4 /* Sources */,
-				83BDE8A15F29FC86149054B94D217EEA /* Frameworks */,
-				806E9C1DCA8A2D0404FEF6722D16DB13 /* Resources */,
+				4942F4A44CCCDB0AB3D5CB500E47397C /* Headers */,
+				ECDBFE0AC3EE2D3E54DDFDE8FACF2831 /* Sources */,
+				25C97CB2676DBC44F01FBB2D73F26303 /* Frameworks */,
+				0CE153A5A8E1E96098CC1E6BC3C0693E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -299,26 +299,26 @@
 			);
 			name = XBAlertViewController;
 			productName = XBAlertViewController;
-			productReference = AB097847756C6EFC379817B02F7C348C /* XBAlertViewController.framework */;
+			productReference = AB097847756C6EFC379817B02F7C348C /* XBAlertViewController */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE8C8861DA610DF36FEA8A070BB4B097 /* Pods-XBAlertViewController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24623066FEDCBB15E6310501CE6A143 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Tests" */;
+			buildConfigurationList = 9571F1AD48C5ABC5EB253F16971D4E20 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Tests" */;
 			buildPhases = (
-				EF39F6EBA054404F80A4A5F9038238B1 /* Headers */,
-				C5B1A955F4FA10B71AF290FA6CF280B2 /* Sources */,
-				53C13EB9F95AB8FC3A7A4AF1BE4656C3 /* Frameworks */,
-				067708306A57681CDE6EEB72ACA1020B /* Resources */,
+				4F023574C5C2FE7C7F7E63DC5B120B51 /* Headers */,
+				C5B4C8C48E33B45F63D8FEE00FC35FDA /* Sources */,
+				42CE6E1D27589B9BCD25B4EB0B68429A /* Frameworks */,
+				BAE37FA139EF31E6A3CB6397B553BF09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF77E234E0622CE0120215576759DDAE /* PBXTargetDependency */,
+				A2149430D1427D8D2A007FC4F46D1FD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-XBAlertViewController_Tests";
-			productName = "Pods-XBAlertViewController_Tests";
-			productReference = B96214761F87FC676663D80A7173D4DF /* Pods_XBAlertViewController_Tests.framework */;
+			productName = Pods_XBAlertViewController_Tests;
+			productReference = B96214761F87FC676663D80A7173D4DF /* Pods-XBAlertViewController_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,19 +327,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 60BE8FFB51F25B5B8B30F29FFF0E29D8 /* Products */;
+			productRefGroup = 822B9DB1C6ACE2CF55891246CD7FDBBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -351,21 +351,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		067708306A57681CDE6EEB72ACA1020B /* Resources */ = {
+		0CE153A5A8E1E96098CC1E6BC3C0693E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7113801540AD7D0AE2F5384585912C95 /* Resources */ = {
+		BAE37FA139EF31E6A3CB6397B553BF09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		806E9C1DCA8A2D0404FEF6722D16DB13 /* Resources */ = {
+		EC4321254633D9C6DE20CF9B0E46E952 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,123 +375,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		446C4FA8631B5DA50B1D328386872A74 /* Sources */ = {
+		79226C38E2511272AC2C0BB5F4BE3EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE4B62DDCD94A0EDC68228F8DBA556F /* Pods-XBAlertViewController_Example-dummy.m in Sources */,
+				833D9143F065A0A9540B8722E55EB0A5 /* Pods-XBAlertViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7829D741F63CFB93EF4FBE35513B13E4 /* Sources */ = {
+		C5B4C8C48E33B45F63D8FEE00FC35FDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C65D2D06A318102CC9EA3B086178439 /* XBAlertAnimateType.swift in Sources */,
-				4F84D6F6CA2DD0A0166AEC240309AABF /* XBAlertViewController-dummy.m in Sources */,
-				A2711D3740048E7FCDDCE994C3C0B307 /* XBShowAlertView+Animation.swift in Sources */,
-				789C04D527756D7F91FAE5B1E8BBABA1 /* XBShowAlertView+Layout.swift in Sources */,
-				E5017BED7A3FD4C93577B9DF0BADE256 /* XBShowAlertView+Public.swift in Sources */,
-				EF37C8F91D8A707F59ED055E78201EDF /* XBShowAlertView.swift in Sources */,
+				652659CAC85252EB8C6F44D6CF7E66EB /* Pods-XBAlertViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5B1A955F4FA10B71AF290FA6CF280B2 /* Sources */ = {
+		ECDBFE0AC3EE2D3E54DDFDE8FACF2831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C1D88E8A271C479BD2A2220F413D5D /* Pods-XBAlertViewController_Tests-dummy.m in Sources */,
+				3F606F3DC1755C0A784F468BAE3C22CB /* XBAlertAnimateType.swift in Sources */,
+				3954CA3DFCA70D8D43EC37C71656D44E /* XBAlertViewController-dummy.m in Sources */,
+				D882C977AE810B5096AE3AC32FD00926 /* XBShowAlertView.swift in Sources */,
+				77E94C4FE18C9AFDA91CEEE8EF113C1C /* XBShowAlertView+Animation.swift in Sources */,
+				4FECB1E40A0B13F83A3179F0019CF27F /* XBShowAlertView+Layout.swift in Sources */,
+				DE3C565959E01CA5013565AED96822F2 /* XBShowAlertView+Public.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F4CE0399E35DE40347D6310A32DA15F /* PBXTargetDependency */ = {
+		1666148CA86D5A02B6FDA13D9C86BE7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XBAlertViewController;
 			target = DA25DDE41766A959DC2A863C7821F3D9 /* XBAlertViewController */;
-			targetProxy = 40C6CF0A3B4FDF5312D46046F18CB438 /* PBXContainerItemProxy */;
+			targetProxy = D1EB6C0244FB9F8398D7EF1A60104D45 /* PBXContainerItemProxy */;
 		};
-		FF77E234E0622CE0120215576759DDAE /* PBXTargetDependency */ = {
+		A2149430D1427D8D2A007FC4F46D1FD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XBAlertViewController_Example";
 			target = 708D7799A488F067820BFBE8DEB2DB91 /* Pods-XBAlertViewController_Example */;
-			targetProxy = 780A9485E2B67F9675BC8204D730ECBE /* PBXContainerItemProxy */;
+			targetProxy = 8A82D809BF2D798508D6D3E28A6E74F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36DC18823760284C985EF8CF3704F175 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C8C4E64D7B213024C08C4D0A087F30D /* Pods-XBAlertViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XBAlertViewController_Tests/Pods-XBAlertViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XBAlertViewController_Tests/Pods-XBAlertViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		411B96656E100EF9FF786CF652FC318E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC194ECC22C84950089263875D8205C /* XBAlertViewController.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XBAlertViewController/XBAlertViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XBAlertViewController/XBAlertViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XBAlertViewController/XBAlertViewController.modulemap";
-				PRODUCT_MODULE_NAME = XBAlertViewController;
-				PRODUCT_NAME = XBAlertViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		85BD971F71CEA8A10D46E0CC421FDD5F /* Release */ = {
+		1D9DC66A26A50E0687AD66495E866F52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FD9E4E9A858296B9862B46CD6DD8640 /* XBAlertViewController.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -519,10 +453,11 @@
 			};
 			name = Release;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -545,66 +480,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -643,12 +519,11 @@
 			};
 			name = Debug;
 		};
-		9BA14C27E83C06AA15E2BEBBD5DAEEDD /* Debug */ = {
+		2B17FA021ABAF90A3753D5AF6B50BE7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 560B6621FD43E406708D7FC565750A06 /* Pods-XBAlertViewController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2C8C4E64D7B213024C08C4D0A087F30D /* Pods-XBAlertViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -671,17 +546,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C31ED13BCC19863696B11773ED6D776E /* Debug */ = {
+		447DBC977359F41F3239F4EBF5881FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0C5062388D8202AB020C2BBCEDB4675 /* Pods-XBAlertViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,12 +584,43 @@
 			};
 			name = Debug;
 		};
-		F124BDEAEA7CE3D341341EB6F2D2A51A /* Release */ = {
+		B139905B889B2677EB86C647719C42F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560B6621FD43E406708D7FC565750A06 /* Pods-XBAlertViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XBAlertViewController_Tests/Pods-XBAlertViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XBAlertViewController_Tests/Pods-XBAlertViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5D7B863F9D3D1D1979EE8953E12E177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 098748B5A609B334477791C1FED9DAF1 /* Pods-XBAlertViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -743,41 +649,133 @@
 			};
 			name = Release;
 		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC48CD03EDDB45419C93B82B828D89F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC194ECC22C84950089263875D8205C /* XBAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XBAlertViewController/XBAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XBAlertViewController/XBAlertViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XBAlertViewController/XBAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = XBAlertViewController;
+				PRODUCT_NAME = XBAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4AD2B87252345EB1A3DB6530BC9FF0 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Example" */ = {
+		92AB6EA45BC3C315C448BCC8DC0EED54 /* Build configuration list for PBXNativeTarget "XBAlertViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C31ED13BCC19863696B11773ED6D776E /* Debug */,
-				F124BDEAEA7CE3D341341EB6F2D2A51A /* Release */,
+				EC48CD03EDDB45419C93B82B828D89F2 /* Debug */,
+				1D9DC66A26A50E0687AD66495E866F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24623066FEDCBB15E6310501CE6A143 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Tests" */ = {
+		9571F1AD48C5ABC5EB253F16971D4E20 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BA14C27E83C06AA15E2BEBBD5DAEEDD /* Debug */,
-				36DC18823760284C985EF8CF3704F175 /* Release */,
+				B139905B889B2677EB86C647719C42F2 /* Debug */,
+				2B17FA021ABAF90A3753D5AF6B50BE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF5330DD0E657BC7B7B0D7DEB7A711E7 /* Build configuration list for PBXNativeTarget "XBAlertViewController" */ = {
+		FCA943F39BD26D7409DFB951FBCCEE22 /* Build configuration list for PBXNativeTarget "Pods-XBAlertViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				411B96656E100EF9FF786CF652FC318E /* Debug */,
-				85BD971F71CEA8A10D46E0CC421FDD5F /* Release */,
+				447DBC977359F41F3239F4EBF5881FA2 /* Debug */,
+				C5D7B863F9D3D1D1979EE8953E12E177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
