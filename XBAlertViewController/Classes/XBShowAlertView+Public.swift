@@ -65,6 +65,7 @@ extension XBShowAlertView {
     }
     
     
+    
     /// 显示弹窗视图(默认显示在window)
     ///
     /// - Parameters:
@@ -80,14 +81,17 @@ extension XBShowAlertView {
     public static func showAlertView(alertStyle: XBAlertStyle = .alert(animateType: .direction(type: .top)),
                                      showInView: UIView? = nil,
                                      contentView: UIView,
+                                     backgroundGestureRecognizer: UIGestureRecognizer? = nil,
                                      backgoundTapDismissEnable: Bool = true,
                                      isShowMask: Bool = true,
                                      backgroundViewColor: UIColor? = nil,
                                      alertViewEdging: CGFloat = 0,
                                      alertViewOriginY: CGFloat = 0,
                                      delegate: XBShowAlertViewDelegate? = nil) -> XBShowAlertView {
-        
         let showView = XBShowAlertView(contentView: contentView)
+        if let temBackgroundGestureRecognizer = backgroundGestureRecognizer {
+            showView.backgroundView.addGestureRecognizer(temBackgroundGestureRecognizer)
+        }
         showView.backgoundTapDismissEnable = backgoundTapDismissEnable
         showView.delegate = delegate
         showView.alertStyle = alertStyle

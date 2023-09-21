@@ -1,6 +1,6 @@
 {
   "name": "XBAlertViewController",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "summary": "方便快捷的弹出框.",
   "homepage": "https://github.com/LiuSky/XBAlertViewController",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/LiuSky/XBAlertViewController.git",
-    "tag": "1.1.0"
+    "tag": "1.2.1"
   },
   "requires_arc": true,
   "swift_versions": "5.0",
